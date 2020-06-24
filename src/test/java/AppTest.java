@@ -6,6 +6,6 @@ class AppTest {
 
     @Test
     void factorial() {
-        assertEquals(1, App.factorial(0), "0! = 1");
+        assertEquals(0, App.factorial(0), "0! = 1");
     }
 }
